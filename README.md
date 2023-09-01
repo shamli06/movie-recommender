@@ -21,7 +21,7 @@ I used CounteVectorizer from sklearn feature extraction library to transform tag
 Use nltk's PorterStemmer library to remove inbetween spaces from the words to avoid anomalous behaviour of the system.
 After that sorted data according to cosine similarity which means according to vectors which are closest to given vector array.
 Then showed first five movies which are similar to given movie.
-Two pickle files are created first is movie_dict.pkl to show all the movies in the list and similarity.pkl is generated to show five similar movies using PyCharm framework.
+Two pickle files are created first is movie_dict.pkl to show all the movies in the list and similarity.pkl is generated to show five similar movies using Streamlit framework.
 
 
 
